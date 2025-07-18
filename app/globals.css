@@ -1,0 +1,154 @@
+.admin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:black;
+  padding: 20px;
+}
+
+.admin-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+}
+.admin-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-input {
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.submit-btn {
+  background:black;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.detail-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-image {
+  width: 400px;
+  height: auto;
+}
+.admin-home{
+    margin-top:30px;
+    display: flex;
+    gap:40px;
+    
+}
+.h1tag{
+  color: white;
+}
+.add-main {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.add-header input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.add-header button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.add-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+}
+
+.add-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.add-card button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
